@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.jogos {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.jogos h2 {
+    margin-top: 0;
+}
+
+.jogos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.jogos li {
+    margin-bottom: 10px;
+}
+
+.jogos button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+
+.jogos button:hover {
+    background-color: #15ff00;
+}
+.saldo {
+    margin-top: 20px;
+}
+
+.realizar-acao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.realizar-acao:hover {
+    background-color: #ff0000;
+}
